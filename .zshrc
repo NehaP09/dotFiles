@@ -3,6 +3,7 @@ if [ -f $(brew --prefix)/etc/brew-wrap ];then
 fi
 git config --global user.email "neha.pednekar@gmail.com"
 git config --global user.name "Neha Pednekar"
+git config --global pull.rebase true
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 export VAULT_ADDR=https://vault.actano.de
