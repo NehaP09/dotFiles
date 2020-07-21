@@ -2,7 +2,9 @@
 # tap repositories and their packages
 
 # Other Homebrew packages
+brew ncurses
 brew vault
+brew watch
 
 # Other Cask applications
 cask adobe-acrobat-reader
